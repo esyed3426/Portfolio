@@ -82,11 +82,12 @@ p {
 .project {
   padding: 9px 25px 9px 25px;
   color: limegreen;
+  text-align: center;
 }
 
 #projects p,
 .project {
-  text-align: center;
+  text-align: left;
 }
 
 footer {
@@ -152,4 +153,26 @@ footer {
   text-transform: uppercase;
   opacity: 0.4;
   font-weight: 200;
+}
+
+.project_image {
+  height: 150px;
+  width: auto;
+  padding: 9px 25px;
+  transition: all 0.3s ease 0s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project_image:hover {
+  opacity: 50%;
+}
+
+#projects {
+  display: flex;
+}
+
+#projects div h3 {
+  text-align: center;
 }
